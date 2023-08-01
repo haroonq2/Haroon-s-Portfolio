@@ -4,30 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- heading -->
-   <h1>My name is Haroon Shahid</h1>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#heading">home</a></li>
+                <li><a href="#Summary">About me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="./public/Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">  <!-- heading -->
+        <div id="heading">
+    <h1 id="h1">My name is Haroon Shahid</h1>
    <h2>I am a web development student</h2>
-
+    </div>
+         
             <hr />
 
     <!-- my photo -->
-   <img src="./Assets/images/profile-photo-1.jpg" alt="" height="300">
+    <div class="img">
+     <img src="./Assets/images/profile-photo-1.jpg" alt="" height="400px" >
+    </div>
+    
    
-   <!-- My summary -->
-   <h3>My Life Summary:</h3>
+   
+   <div id="Summary"> <!-- My summary -->
+   <h3>About Me:</h3>
    <p>Assalam o Alaikum, I am Haroon Shahid I am a 12 year old student Who's main passion is in computers And IT field. I want to revolutionize Pakistan with the help of computers and internet, One of my goals is to create a multinational company Who's main motive will be helping the less fortunate all around the world.</p>
+   </div>
+  
 
             <hr />
-
-   <!-- Education section -->
+    <div id="education"><!--Education section -->
    <h3>Education:</h3>
-   <p>I am currently studying in 7th grade in (The Knowledge School) Idrees Campus Okara.</p>
+   <p>I am currently studying in 7th grade in (The Knowledge School) Idrees Campus Okara.</p></div>
+   
 
             <hr />
    
-    <!-- Skills Section -->
+    <div id="skills"><!-- Skills Section -->
     <h3>Skills:</h3>
     <ul>
         <li>Communication
@@ -44,8 +65,13 @@
         <li>Determined & Persistent</li>
         <li>IT & Computers</li>
     </ul>
-
+</div>        
+    
             <hr />
-   <a href="./public/Contact.html">Contact Me</a>
+   
+  <footer>
+    <p>&copy Haroon shahid 2023</p>
+  </footer>
+
 </body>
 </html>
